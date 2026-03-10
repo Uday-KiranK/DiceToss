@@ -31,9 +31,13 @@ if (rand2 === 1){
 }
 
 if (rand1 === rand2){
-    document.querySelector("h1").textContent = "Draw!"
+    document.querySelector("h1").textContent = "Draw!";
+    document.querySelector(".p1").textContent = "Player 1 🥇";
+    document.querySelector(".p2").textContent = "Player 2 🥇";
 }else if (rand1 > rand2){
-    document.querySelector("h1").textContent = "Player 1 Wins! 🚩"
+    document.querySelector("h1").textContent = "Player 1 Wins! 🚩";
+    document.querySelector(".p1").textContent = "Player 1 🥇";
 }else{
-    document.querySelector("h1").textContent = "Player 2 Wins! 🚩"
+    document.querySelector("h1").textContent = "Player 2 Wins! 🚩";
+    document.querySelector(".p2").textContent = "Player 2 🥇";
 }
