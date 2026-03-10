@@ -1,0 +1,53 @@
+html{
+    background-color: #393e46;
+    color: #4ecca3;
+}
+
+h1{
+    font-size: 5.5vw;
+    min-width: 3rem;
+    font-family: Lobster, cursive;
+    font-weight: 700;
+    text-shadow: 5px 0 #232931;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.dicecon{
+    display: flex;
+    gap: 10px;
+    height: 60vh;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+p{
+    text-align: center;
+    font-size: clamp(15px, 0.8rem + 0.62vw, 21.6px);
+    font-family: "indie Flower", cursive;
+}
+
+
+.footcon{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 100vw;
+    text-align: center;
+    font-family: "indie Flower", cursive;
+    clear: both;
+    font-size: clamp(2px, 1.5vw, 2vw);
+    color: white;
+}
+
+
